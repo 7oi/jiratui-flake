@@ -1,0 +1,19 @@
+# Build outputs
+result
+result-*
+
+# Nix
+.direnv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these!)
+*.env
+.env.*
+jiratui.yaml
